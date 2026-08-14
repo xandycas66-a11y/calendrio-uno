@@ -1,0 +1,290 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Para mi niña ❤️</title>
+
+    <link rel="stylesheet" href="style.css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+    <link href="https://fonts.googleapis.com/css2?family=Great+Vibes&family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+</head>
+
+<body>
+
+    <!-- CORAZONES DE FONDO -->
+
+    <div class="corazones-fondo">
+        <span>♥</span>
+        <span>♥</span>
+        <span>♥</span>
+        <span>♥</span>
+        <span>♥</span>
+        <span>♥</span>
+        <span>♥</span>
+        <span>♥</span>
+    </div>
+
+
+    <!-- ENCABEZADO -->
+
+    <header class="encabezado">
+
+        <div class="decoracion titulo-corazon">
+            ♡
+        </div>
+
+        <h1>Muñeca hermosa</h1>
+
+        <div class="linea-decorativa">
+            <span>♡</span>
+            <div></div>
+            <span>♡</span>
+        </div>
+
+        <p>Faltan días para el 15 de agosto</p>
+
+    </header>
+
+
+    <!-- CALENDARIO -->
+
+    <main>
+
+        <section class="calendario">
+
+            <div class="cabecera-calendario">
+
+                <button class="flecha">
+                    ‹
+                </button>
+
+                <h2>♡ Agosto 2026 ♡</h2>
+
+                <button class="flecha">
+                    ›
+                </button>
+
+            </div>
+
+
+            <div class="dias-semana">
+
+                <span>DOM</span>
+                <span>LUN</span>
+                <span>MAR</span>
+                <span>MIÉ</span>
+                <span>JUE</span>
+                <span>VIE</span>
+                <span>SÁB</span>
+
+            </div>
+
+
+            <div class="dias">
+
+                <div class="otro-mes">26</div>
+                <div class="otro-mes">27</div>
+                <div class="otro-mes">28</div>
+                <div class="otro-mes">29</div>
+                <div class="otro-mes">30</div>
+                <div class="otro-mes">31</div>
+                <div>1</div>
+
+                <div>2</div>
+                <div>3</div>
+                <div>4</div>
+                <div>5</div>
+                <div>6</div>
+                <div>7</div>
+                <div>8</div>
+
+                <div>9</div>
+                <div>10</div>
+                <div>11</div>
+                <div>12</div>
+                <div>13</div>
+                <div>14</div>
+
+                <!-- 15 ESPECIAL -->
+
+                <div class="dia-cumple" onclick="teAmoIdiomas()">
+    <span>15</span>
+    <small>♥</small>
+</div>
+
+                <div>16</div>
+                <div>17</div>
+                <div>18</div>
+                <div>19</div>
+                <div>20</div>
+                <div>21</div>
+                <div>22</div>
+
+                <div>23</div>
+                <div>24</div>
+                <div>25</div>
+                <div>26</div>
+                <div>27</div>
+                <div>28</div>
+                <div>29</div>
+
+                <div>30</div>
+                <div>31</div>
+
+                <div class="otro-mes">1</div>
+                <div class="otro-mes">2</div>
+                <div class="otro-mes">3</div>
+                <div class="otro-mes">4</div>
+                <div class="otro-mes">5</div>
+
+            </div>
+
+
+            <!-- CONTADOR -->
+
+            <div class="contador">
+
+                <div class="contador-item">
+                    <span class="icono">♡</span>
+                    <strong id="dias">--</strong>
+                    <small>DÍAS</small>
+                </div>
+
+                <div class="separador"></div>
+
+                <div class="contador-item">
+                    <span class="icono">◷</span>
+                    <strong id="horas">--</strong>
+                    <small>HORAS</small>
+                </div>
+
+                <div class="separador"></div>
+
+                <div class="contador-item">
+                    <span class="icono">✦</span>
+                    <strong id="minutos">--</strong>
+                    <small>MINUTOS</small>
+                </div>
+
+                <div class="separador"></div>
+
+                <div class="contador-item">
+                    <span class="icono">♡</span>
+                    <strong id="segundos">--</strong>
+                    <small>SEGUNDOS</small>
+                </div>
+
+            </div>
+
+        </section>
+
+
+        <!-- SOBRE -->
+
+        <section class="zona-sobre">
+
+            <div class="sobre-interactivo" id="sobre" onclick="abrirSobre()">
+
+                <div class="tapa"></div>
+
+                <div class="papel">
+                    <span>♥</span>
+                    <p>Tengo algo<br>para ti amor...</p>
+                </div>
+
+                <div class="frente"></div>
+
+                <div class="corazon-sobre">
+                    ♥
+                </div>
+
+            </div>
+
+
+            <!-- MOÑO -->
+
+            <div class="mono">
+
+                <div class="lazo izquierdo"></div>
+
+                <div class="nudo"></div>
+
+                <div class="lazo derecho"></div>
+
+            </div>
+
+
+            <p class="texto-sobre">
+                Haz clic en el sobre EAA ♥
+            </p>
+
+        </section>
+
+
+        <!-- BOTÓN -->
+
+        <button class="boton-sorpresa" onclick="abrirSorpresa()">
+            💌 Abrir mi sorpresa
+        </button>
+
+    </main>
+
+
+    <!-- SORPRESA -->
+
+    <section class="sorpresa" id="sorpresa">
+
+        <div class="contenido-sorpresa">
+
+            <button class="cerrar" onclick="cerrarSorpresa()">
+                ×
+            </button>
+
+            <h2>Feliz cumpleaños, mi cielo ❤️</h2>
+
+            <p class="mensaje">
+                Hoy quiero recordarte lo especial que eres para mí.
+                Espero que este pequeño detalle pueda sacarte una sonrisa
+                y hacer que tu día sea todavía más bonio. 
+
+                Me quedo perplejo por tu belleza, eres tan hermosa, linda, preciosa
+                como mi niña de sueños, y al final se cumplio
+                me enamoro de ti, siempre, y te amare profundamente, 
+                te amaria de cualquier forma,en todos los mundos, te amo con todo lo
+                bueno que eres, siempre vienes a mi, con tus ojos hermosos que derriten
+                cualquiera, pero solo los voy a querer para mi, te sientes como la brisa,o 
+                el rayo de sol mas dulce que ha llegado a mis dias, TE AMO TE AMO ❤️
+            </p>
+
+
+            <div class="galeria">
+
+                <img src="imagenes/foto1.jpeg" alt="Nuestro recuerdo">
+
+                <img src="imagenes/foto2.jpeg" alt="Nuestro recuerdo">
+
+                <img src="imagenes/foto3.jpeg" alt="Nuestro recuerdo">
+
+            </div>
+
+
+            <p class="frase-final">
+                Gracias por existir y por formar parte de mi vida. ❤️
+            </p>
+
+        </div>
+
+    </section>
+
+
+    <script src="script.js"></script>
+
+</body>
+
+</html>
